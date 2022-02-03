@@ -3,14 +3,14 @@
     padding: 0;
 }
 .background{
-    margin:auto;
-    background-image: url("hamn_background.jpg");
+    background-image:url(hamn_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    border: 1px solid black;
     }
 .h2{
-    margin-top: 10%;
+    margin-top: 15%;
     padding-top: 5%;
     text-align: center;
     font-size: 60px;
@@ -24,9 +24,9 @@
     
     position: sticky;
     top: 0;
-    width: 94.7%;
+    width: 93.4%;
     background-color: #003469;
-    padding: 40px;
+    padding: 50px;
    }
 .nav1 a{
     font-weight: bold;
@@ -38,11 +38,17 @@
     width: 15%; /* width of links */
     text-align: center;
 }
+.divide{
+    margin:20px;
+    padding: auto;
+    width: 96%;
+    height:450px;
+}
 
 .box{
     width: 400px;
     height: 400px;
-    margin: 100px;
+    margin: 50px;
     background-color: #003469;
     border: 1px solid #003469;
     color: white;
@@ -63,8 +69,8 @@ a.one:link{color: #003469;}
 a.one:visited{color: #003469;}
 a.one:hover{color: red;}
 a.one {
-    margin: 30px;
-    margin-left: -70px;
+    margin: 70px;
+    margin-left: 20px;
     padding: 20px;
     border-style: outset;
     border-width: 6px;
@@ -81,7 +87,7 @@ a.two:link{color: #003469;}
 a.two:visited{color: #003469;}
 a.two:hover{color: red;}
 a.two{
-    margin: 30px;
+    margin: 70px;
     padding: 20px;
     border-style: outset;
     border-width: 6px;
@@ -95,7 +101,7 @@ a.two{
    }
 
    .all_image{
-      margin-top: 200px;
+      margin-top: 80px;
        padding-top: 50px;
        background-image: url("all_image.png");
        background-size: cover;
@@ -130,7 +136,7 @@ a.two{
      float: right;
 }
 div.gallery{
-    margin: 40px;
+    margin: 50px;
     border: 1px solid white;
     float: left;
     width: 400px;
@@ -270,6 +276,115 @@ div.desc1{
     height:40%;
 
 }
+/* land-services start here*/
+.background2{
+    background-image: url("land_background_img.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    height:400px;
 
-    
+}
+.land{
+    font-size: 80px;
+    color:white ;
+    text-shadow: 6px 6px #003469;
+    text-align: center;
+    padding-top: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
+}
+.div5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 50px 10px 10px 10px;
+    height: 600px;
+}
+.workers img{
+    width: 800px;
+    height: 600px;
+}
+.content {
+   width: 400px;
+   height: 300px;
+   margin:30px;
+   padding: 35px;
+ }
+ .content h3{
+     color: #e3000f;
+     font-size: 22px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     line-height: 1.6;
+    } 
+.content p{
+    color: #003469;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content aside{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 300px;
+    height: 150px;
+    line-height: normal;
+}
+
+
+ h2{
+    margin: 50px;
+    color: #003469;
+    font-size: 22px;
+    text-align: center;
+}
+div.gallery2{
+    margin: 50px;
+    float: left;
+    width: 400px;
+   }
+div.gallery2 img{
+    width: 400px;
+    height:400px ;
+}
+div.desc2{
+    padding: 15px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #003469;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.div6{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 750px 100px 10px 100px;
+    height: 650px;
+   
+}
+.unit img{
+    width: 600px;
+    height: 650px;
+}
+.content1 {
+    width: 400px;
+    height: 530px;
+    margin:30px;
+    padding: 35px;
+   
+}
+.content1 h3{
+    color: #e3000f;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+   } 
+.content1 p{
+   color: #003469;
+   text-align: left;
+   line-height: 1.6;
+   font-size: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
